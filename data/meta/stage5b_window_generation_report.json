@@ -1,0 +1,450 @@
+{
+  "homes": {
+    "7901": {
+      "train": {
+        "n_rows": 393060,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 78601,
+        "n_rejected": 466,
+        "n_accepted": 78135,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 1,
+          "refrigerator1": 1
+        }
+      },
+      "val": {
+        "n_rows": 44640,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 44581,
+        "n_rejected": 0,
+        "n_accepted": 44581,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 0,
+          "refrigerator1": 0
+        }
+      },
+      "test": {
+        "n_rows": 87900,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 87841,
+        "n_rejected": 0,
+        "n_accepted": 87841,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 0,
+          "refrigerator1": 0
+        }
+      }
+    },
+    "7951": {
+      "train": {
+        "n_rows": 393060,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 78601,
+        "n_rejected": 0,
+        "n_accepted": 78601,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 24,
+          "refrigerator1": 24
+        }
+      },
+      "val": {
+        "n_rows": 44640,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 44581,
+        "n_rejected": 0,
+        "n_accepted": 44581,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 0,
+          "refrigerator1": 0
+        }
+      },
+      "test": {
+        "n_rows": 87900,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 87841,
+        "n_rejected": 0,
+        "n_accepted": 87841,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 0,
+          "refrigerator1": 0
+        }
+      }
+    },
+    "8386": {
+      "train": {
+        "n_rows": 393060,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 78601,
+        "n_rejected": 23,
+        "n_accepted": 78578,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 0,
+          "refrigerator1": 0
+        }
+      },
+      "val": {
+        "n_rows": 44640,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 44581,
+        "n_rejected": 0,
+        "n_accepted": 44581,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 0,
+          "refrigerator1": 0
+        }
+      },
+      "test": {
+        "n_rows": 87900,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 87841,
+        "n_rejected": 0,
+        "n_accepted": 87841,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 0,
+          "refrigerator1": 0
+        }
+      }
+    },
+    "8565": {
+      "train": {
+        "n_rows": 393060,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 78601,
+        "n_rejected": 0,
+        "n_accepted": 78601,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 12,
+          "refrigerator1": 12
+        }
+      },
+      "val": {
+        "n_rows": 44640,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 44581,
+        "n_rejected": 0,
+        "n_accepted": 44581,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 0,
+          "refrigerator1": 0
+        }
+      },
+      "test": {
+        "n_rows": 87900,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 87841,
+        "n_rejected": 0,
+        "n_accepted": 87841,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 0,
+          "refrigerator1": 0
+        }
+      }
+    },
+    "3538": {
+      "train": {
+        "n_rows": 393060,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 78601,
+        "n_rejected": 0,
+        "n_accepted": 78601,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 12,
+          "refrigerator1": 12
+        }
+      },
+      "val": {
+        "n_rows": 44640,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 44581,
+        "n_rejected": 0,
+        "n_accepted": 44581,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 0,
+          "refrigerator1": 0
+        }
+      },
+      "test": {
+        "n_rows": 87900,
+        "chrono_strictly_1min_spacing": true,
+        "chrono_monotonic_unique": true,
+        "n_candidates": 87841,
+        "n_rejected": 0,
+        "n_accepted": 87841,
+        "n_appliance_invalid_at_endpoint": {
+          "air1": 0,
+          "dishwasher1": 0,
+          "refrigerator1": 0
+        }
+      }
+    }
+  },
+  "splits": {
+    "train": {
+      "rows": [
+        {
+          "dataid": "7901",
+          "n_rows": 393060,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 78601,
+          "n_rejected": 466,
+          "n_accepted": 78135,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 1,
+            "refrigerator1": 1
+          }
+        },
+        {
+          "dataid": "7951",
+          "n_rows": 393060,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 78601,
+          "n_rejected": 0,
+          "n_accepted": 78601,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 24,
+            "refrigerator1": 24
+          }
+        },
+        {
+          "dataid": "8386",
+          "n_rows": 393060,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 78601,
+          "n_rejected": 23,
+          "n_accepted": 78578,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          }
+        },
+        {
+          "dataid": "8565",
+          "n_rows": 393060,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 78601,
+          "n_rejected": 0,
+          "n_accepted": 78601,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 12,
+            "refrigerator1": 12
+          }
+        },
+        {
+          "dataid": "3538",
+          "n_rows": 393060,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 78601,
+          "n_rejected": 0,
+          "n_accepted": 78601,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 12,
+            "refrigerator1": 12
+          }
+        }
+      ],
+      "accepted_total": 392516
+    },
+    "val": {
+      "rows": [
+        {
+          "dataid": "7901",
+          "n_rows": 44640,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 44581,
+          "n_rejected": 0,
+          "n_accepted": 44581,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          }
+        },
+        {
+          "dataid": "7951",
+          "n_rows": 44640,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 44581,
+          "n_rejected": 0,
+          "n_accepted": 44581,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          }
+        },
+        {
+          "dataid": "8386",
+          "n_rows": 44640,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 44581,
+          "n_rejected": 0,
+          "n_accepted": 44581,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          }
+        },
+        {
+          "dataid": "8565",
+          "n_rows": 44640,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 44581,
+          "n_rejected": 0,
+          "n_accepted": 44581,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          }
+        },
+        {
+          "dataid": "3538",
+          "n_rows": 44640,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 44581,
+          "n_rejected": 0,
+          "n_accepted": 44581,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          }
+        }
+      ],
+      "accepted_total": 222905
+    },
+    "test": {
+      "rows": [
+        {
+          "dataid": "7901",
+          "n_rows": 87900,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 87841,
+          "n_rejected": 0,
+          "n_accepted": 87841,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          }
+        },
+        {
+          "dataid": "7951",
+          "n_rows": 87900,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 87841,
+          "n_rejected": 0,
+          "n_accepted": 87841,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          }
+        },
+        {
+          "dataid": "8386",
+          "n_rows": 87900,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 87841,
+          "n_rejected": 0,
+          "n_accepted": 87841,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          }
+        },
+        {
+          "dataid": "8565",
+          "n_rows": 87900,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 87841,
+          "n_rejected": 0,
+          "n_accepted": 87841,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          }
+        },
+        {
+          "dataid": "3538",
+          "n_rows": 87900,
+          "chrono_strictly_1min_spacing": true,
+          "chrono_monotonic_unique": true,
+          "n_candidates": 87841,
+          "n_rejected": 0,
+          "n_accepted": 87841,
+          "n_appliance_invalid_at_endpoint": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          }
+        }
+      ],
+      "accepted_total": 439205
+    }
+  },
+  "final_totals": {
+    "train": 392516,
+    "val": 222905,
+    "test": 439205,
+    "grand_total": 1054626
+  },
+  "expected_totals": {
+    "train": 392516,
+    "val": 222905,
+    "test": 439205,
+    "grand_total": 1054626
+  },
+  "discrepancies": {},
+  "elapsed_seconds": 2.6262428760528564
+}
