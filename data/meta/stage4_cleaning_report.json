@@ -1,0 +1,754 @@
+{
+  "homes": {
+    "7901": {
+      "n_raw_rows": 523440,
+      "ambiguous_local_time_count": 120,
+      "offset_mismatch_count_excl_ambiguous": 0,
+      "duplicate_utc_count": 0,
+      "out_of_range_count": 0,
+      "splits": {
+        "train": {
+          "local_range": [
+            "2018-01-01 00:00:00",
+            "2018-09-30 23:59:00"
+          ],
+          "span_minutes": 393060,
+          "present_before_interp": 390840,
+          "missing_before_interp": 2220,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 2220,
+          "appliance_valid_counts": {
+            "air1": 390840,
+            "dishwasher1": 390900,
+            "refrigerator1": 390900
+          },
+          "appliance_invalid_counts": {
+            "air1": 2220,
+            "dishwasher1": 2160,
+            "refrigerator1": 2160
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 390840,
+              "n_negative": 44632,
+              "pct_negative": 11.4195,
+              "neg_min": -0.005,
+              "neg_max": -0.001,
+              "neg_mean": -0.0011391826492202907
+            },
+            "dishwasher1": {
+              "n_valid": 390900,
+              "n_negative": 42185,
+              "pct_negative": 10.7918,
+              "neg_min": -125.236,
+              "neg_max": -0.001,
+              "neg_mean": -0.004032831575204458
+            },
+            "refrigerator1": {
+              "n_valid": 390900,
+              "n_negative": 1,
+              "pct_negative": 0.0003,
+              "neg_min": -779.25,
+              "neg_max": -779.25,
+              "neg_mean": -779.25
+            }
+          }
+        },
+        "val": {
+          "local_range": [
+            "2018-10-01 00:00:00",
+            "2018-10-31 23:59:00"
+          ],
+          "span_minutes": 44640,
+          "present_before_interp": 44640,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 44640,
+            "dishwasher1": 44640,
+            "refrigerator1": 44640
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 44640,
+              "n_negative": 5473,
+              "pct_negative": 12.2603,
+              "neg_min": -0.005,
+              "neg_max": -0.001,
+              "neg_mean": -0.001171204092819295
+            },
+            "dishwasher1": {
+              "n_valid": 44640,
+              "n_negative": 4185,
+              "pct_negative": 9.375,
+              "neg_min": -0.007,
+              "neg_max": -0.001,
+              "neg_mean": -0.001116129032258065
+            },
+            "refrigerator1": {
+              "n_valid": 44640,
+              "n_negative": 0,
+              "pct_negative": 0.0,
+              "neg_min": null,
+              "neg_max": null,
+              "neg_mean": null
+            }
+          }
+        },
+        "test": {
+          "local_range": [
+            "2018-11-01 00:00:00",
+            "2018-12-31 23:59:00"
+          ],
+          "span_minutes": 87900,
+          "present_before_interp": 87900,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 87900,
+            "dishwasher1": 87900,
+            "refrigerator1": 87900
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 87900,
+              "n_negative": 14085,
+              "pct_negative": 16.0239,
+              "neg_min": -0.004,
+              "neg_max": -0.001,
+              "neg_mean": -0.001155129570465034
+            },
+            "dishwasher1": {
+              "n_valid": 87900,
+              "n_negative": 1918,
+              "pct_negative": 2.182,
+              "neg_min": -0.006,
+              "neg_max": -0.001,
+              "neg_mean": -0.0013138686131386867
+            },
+            "refrigerator1": {
+              "n_valid": 87900,
+              "n_negative": 0,
+              "pct_negative": 0.0,
+              "neg_min": null,
+              "neg_max": null,
+              "neg_mean": null
+            }
+          }
+        }
+      }
+    },
+    "7951": {
+      "n_raw_rows": 525600,
+      "ambiguous_local_time_count": 120,
+      "offset_mismatch_count_excl_ambiguous": 0,
+      "duplicate_utc_count": 0,
+      "out_of_range_count": 0,
+      "splits": {
+        "train": {
+          "local_range": [
+            "2018-01-01 00:00:00",
+            "2018-09-30 23:59:00"
+          ],
+          "span_minutes": 393060,
+          "present_before_interp": 393060,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 393060,
+            "dishwasher1": 392940,
+            "refrigerator1": 392940
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 120,
+            "refrigerator1": 120
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 393060,
+              "n_negative": 11176,
+              "pct_negative": 2.8433,
+              "neg_min": -0.005,
+              "neg_max": -0.001,
+              "neg_mean": -0.0011354688618468148
+            },
+            "dishwasher1": {
+              "n_valid": 392940,
+              "n_negative": 14028,
+              "pct_negative": 3.57,
+              "neg_min": -0.013,
+              "neg_max": -0.001,
+              "neg_mean": -0.00240105503279156
+            },
+            "refrigerator1": {
+              "n_valid": 392940,
+              "n_negative": 0,
+              "pct_negative": 0.0,
+              "neg_min": null,
+              "neg_max": null,
+              "neg_mean": null
+            }
+          }
+        },
+        "val": {
+          "local_range": [
+            "2018-10-01 00:00:00",
+            "2018-10-31 23:59:00"
+          ],
+          "span_minutes": 44640,
+          "present_before_interp": 44640,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 44640,
+            "dishwasher1": 44640,
+            "refrigerator1": 44640
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 44640,
+              "n_negative": 1030,
+              "pct_negative": 2.3073,
+              "neg_min": -0.005,
+              "neg_max": -0.001,
+              "neg_mean": -0.0013737864077669906
+            },
+            "dishwasher1": {
+              "n_valid": 44640,
+              "n_negative": 1588,
+              "pct_negative": 3.5573,
+              "neg_min": -0.012,
+              "neg_max": -0.001,
+              "neg_mean": -0.002323047858942066
+            },
+            "refrigerator1": {
+              "n_valid": 44640,
+              "n_negative": 0,
+              "pct_negative": 0.0,
+              "neg_min": null,
+              "neg_max": null,
+              "neg_mean": null
+            }
+          }
+        },
+        "test": {
+          "local_range": [
+            "2018-11-01 00:00:00",
+            "2018-12-31 23:59:00"
+          ],
+          "span_minutes": 87900,
+          "present_before_interp": 87900,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 87900,
+            "dishwasher1": 87900,
+            "refrigerator1": 87900
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 87900,
+              "n_negative": 1979,
+              "pct_negative": 2.2514,
+              "neg_min": -0.005,
+              "neg_max": -0.001,
+              "neg_mean": -0.0015032844871147046
+            },
+            "dishwasher1": {
+              "n_valid": 87900,
+              "n_negative": 8923,
+              "pct_negative": 10.1513,
+              "neg_min": -0.014,
+              "neg_max": -0.001,
+              "neg_mean": -0.0017505323321752775
+            },
+            "refrigerator1": {
+              "n_valid": 87900,
+              "n_negative": 0,
+              "pct_negative": 0.0,
+              "neg_min": null,
+              "neg_max": null,
+              "neg_mean": null
+            }
+          }
+        }
+      }
+    },
+    "8386": {
+      "n_raw_rows": 525600,
+      "ambiguous_local_time_count": 120,
+      "offset_mismatch_count_excl_ambiguous": 0,
+      "duplicate_utc_count": 0,
+      "out_of_range_count": 0,
+      "splits": {
+        "train": {
+          "local_range": [
+            "2018-01-01 00:00:00",
+            "2018-09-30 23:59:00"
+          ],
+          "span_minutes": 393060,
+          "present_before_interp": 393000,
+          "missing_before_interp": 60,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 60,
+          "appliance_valid_counts": {
+            "air1": 393000,
+            "dishwasher1": 393060,
+            "refrigerator1": 393060
+          },
+          "appliance_invalid_counts": {
+            "air1": 60,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 393000,
+              "n_negative": 51727,
+              "pct_negative": 13.1621,
+              "neg_min": -0.013,
+              "neg_max": -0.001,
+              "neg_mean": -0.0016132387341233788
+            },
+            "dishwasher1": {
+              "n_valid": 393060,
+              "n_negative": 577,
+              "pct_negative": 0.1468,
+              "neg_min": -0.002,
+              "neg_max": -0.001,
+              "neg_mean": -0.0010086655112651647
+            },
+            "refrigerator1": {
+              "n_valid": 393060,
+              "n_negative": 271,
+              "pct_negative": 0.0689,
+              "neg_min": -0.001,
+              "neg_max": -0.001,
+              "neg_mean": -0.0010000000000000002
+            }
+          }
+        },
+        "val": {
+          "local_range": [
+            "2018-10-01 00:00:00",
+            "2018-10-31 23:59:00"
+          ],
+          "span_minutes": 44640,
+          "present_before_interp": 44640,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 44640,
+            "dishwasher1": 44640,
+            "refrigerator1": 44640
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 44640,
+              "n_negative": 5842,
+              "pct_negative": 13.0869,
+              "neg_min": -0.013,
+              "neg_max": -0.001,
+              "neg_mean": -0.0014127011297500856
+            },
+            "dishwasher1": {
+              "n_valid": 44640,
+              "n_negative": 76,
+              "pct_negative": 0.1703,
+              "neg_min": -0.002,
+              "neg_max": -0.001,
+              "neg_mean": -0.001210526315789474
+            },
+            "refrigerator1": {
+              "n_valid": 44640,
+              "n_negative": 23,
+              "pct_negative": 0.0515,
+              "neg_min": -0.001,
+              "neg_max": -0.001,
+              "neg_mean": -0.0010000000000000002
+            }
+          }
+        },
+        "test": {
+          "local_range": [
+            "2018-11-01 00:00:00",
+            "2018-12-31 23:59:00"
+          ],
+          "span_minutes": 87900,
+          "present_before_interp": 87900,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 87900,
+            "dishwasher1": 87900,
+            "refrigerator1": 87900
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 87900,
+              "n_negative": 10430,
+              "pct_negative": 11.8658,
+              "neg_min": -0.011,
+              "neg_max": -0.001,
+              "neg_mean": -0.0016724832214765103
+            },
+            "dishwasher1": {
+              "n_valid": 87900,
+              "n_negative": 189,
+              "pct_negative": 0.215,
+              "neg_min": -0.001,
+              "neg_max": -0.001,
+              "neg_mean": -0.0010000000000000002
+            },
+            "refrigerator1": {
+              "n_valid": 87900,
+              "n_negative": 50,
+              "pct_negative": 0.0569,
+              "neg_min": -0.001,
+              "neg_max": -0.001,
+              "neg_mean": -0.001
+            }
+          }
+        }
+      }
+    },
+    "8565": {
+      "n_raw_rows": 525600,
+      "ambiguous_local_time_count": 120,
+      "offset_mismatch_count_excl_ambiguous": 0,
+      "duplicate_utc_count": 0,
+      "out_of_range_count": 0,
+      "splits": {
+        "train": {
+          "local_range": [
+            "2018-01-01 00:00:00",
+            "2018-09-30 23:59:00"
+          ],
+          "span_minutes": 393060,
+          "present_before_interp": 393060,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 393060,
+            "dishwasher1": 393000,
+            "refrigerator1": 393000
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 60,
+            "refrigerator1": 60
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 393060,
+              "n_negative": 246,
+              "pct_negative": 0.0626,
+              "neg_min": -0.004,
+              "neg_max": -0.001,
+              "neg_mean": -0.00101219512195122
+            },
+            "dishwasher1": {
+              "n_valid": 393000,
+              "n_negative": 3054,
+              "pct_negative": 0.7771,
+              "neg_min": -0.003,
+              "neg_max": -0.001,
+              "neg_mean": -0.0017491814014407336
+            },
+            "refrigerator1": {
+              "n_valid": 393000,
+              "n_negative": 0,
+              "pct_negative": 0.0,
+              "neg_min": null,
+              "neg_max": null,
+              "neg_mean": null
+            }
+          }
+        },
+        "val": {
+          "local_range": [
+            "2018-10-01 00:00:00",
+            "2018-10-31 23:59:00"
+          ],
+          "span_minutes": 44640,
+          "present_before_interp": 44640,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 44640,
+            "dishwasher1": 44640,
+            "refrigerator1": 44640
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 44640,
+              "n_negative": 1157,
+              "pct_negative": 2.5918,
+              "neg_min": -0.006,
+              "neg_max": -0.001,
+              "neg_mean": -0.0011002592912705274
+            },
+            "dishwasher1": {
+              "n_valid": 44640,
+              "n_negative": 432,
+              "pct_negative": 0.9677,
+              "neg_min": -0.002,
+              "neg_max": -0.001,
+              "neg_mean": -0.0016898148148148152
+            },
+            "refrigerator1": {
+              "n_valid": 44640,
+              "n_negative": 0,
+              "pct_negative": 0.0,
+              "neg_min": null,
+              "neg_max": null,
+              "neg_mean": null
+            }
+          }
+        },
+        "test": {
+          "local_range": [
+            "2018-11-01 00:00:00",
+            "2018-12-31 23:59:00"
+          ],
+          "span_minutes": 87900,
+          "present_before_interp": 87900,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 87900,
+            "dishwasher1": 87900,
+            "refrigerator1": 87900
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 87900,
+              "n_negative": 0,
+              "pct_negative": 0.0,
+              "neg_min": null,
+              "neg_max": null,
+              "neg_mean": null
+            },
+            "dishwasher1": {
+              "n_valid": 87900,
+              "n_negative": 614,
+              "pct_negative": 0.6985,
+              "neg_min": -0.003,
+              "neg_max": -0.001,
+              "neg_mean": -0.0016628664495114008
+            },
+            "refrigerator1": {
+              "n_valid": 87900,
+              "n_negative": 1,
+              "pct_negative": 0.0011,
+              "neg_min": -0.002,
+              "neg_max": -0.002,
+              "neg_mean": -0.002
+            }
+          }
+        }
+      }
+    },
+    "3538": {
+      "n_raw_rows": 525600,
+      "ambiguous_local_time_count": 120,
+      "offset_mismatch_count_excl_ambiguous": 0,
+      "duplicate_utc_count": 0,
+      "out_of_range_count": 0,
+      "splits": {
+        "train": {
+          "local_range": [
+            "2018-01-01 00:00:00",
+            "2018-09-30 23:59:00"
+          ],
+          "span_minutes": 393060,
+          "present_before_interp": 393060,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 393060,
+            "dishwasher1": 393000,
+            "refrigerator1": 393000
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 60,
+            "refrigerator1": 60
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 393060,
+              "n_negative": 62061,
+              "pct_negative": 15.7892,
+              "neg_min": -0.077,
+              "neg_max": -0.001,
+              "neg_mean": -0.0031478867565782062
+            },
+            "dishwasher1": {
+              "n_valid": 393000,
+              "n_negative": 1713,
+              "pct_negative": 0.4359,
+              "neg_min": -0.002,
+              "neg_max": -0.001,
+              "neg_mean": -0.0010268534734384127
+            },
+            "refrigerator1": {
+              "n_valid": 393000,
+              "n_negative": 0,
+              "pct_negative": 0.0,
+              "neg_min": null,
+              "neg_max": null,
+              "neg_mean": null
+            }
+          }
+        },
+        "val": {
+          "local_range": [
+            "2018-10-01 00:00:00",
+            "2018-10-31 23:59:00"
+          ],
+          "span_minutes": 44640,
+          "present_before_interp": 44640,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 44640,
+            "dishwasher1": 44640,
+            "refrigerator1": 44640
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 44640,
+              "n_negative": 11412,
+              "pct_negative": 25.5645,
+              "neg_min": -0.082,
+              "neg_max": -0.001,
+              "neg_mean": -0.004504644234139502
+            },
+            "dishwasher1": {
+              "n_valid": 44640,
+              "n_negative": 45,
+              "pct_negative": 0.1008,
+              "neg_min": -0.002,
+              "neg_max": -0.001,
+              "neg_mean": -0.0012444444444444447
+            },
+            "refrigerator1": {
+              "n_valid": 44640,
+              "n_negative": 0,
+              "pct_negative": 0.0,
+              "neg_min": null,
+              "neg_max": null,
+              "neg_mean": null
+            }
+          }
+        },
+        "test": {
+          "local_range": [
+            "2018-11-01 00:00:00",
+            "2018-12-31 23:59:00"
+          ],
+          "span_minutes": 87900,
+          "present_before_interp": 87900,
+          "missing_before_interp": 0,
+          "interpolated_count": 0,
+          "preserved_gap_count_after_interp": 0,
+          "appliance_valid_counts": {
+            "air1": 87900,
+            "dishwasher1": 87900,
+            "refrigerator1": 87900
+          },
+          "appliance_invalid_counts": {
+            "air1": 0,
+            "dishwasher1": 0,
+            "refrigerator1": 0
+          },
+          "negative_reading_diagnostics": {
+            "air1": {
+              "n_valid": 87900,
+              "n_negative": 29306,
+              "pct_negative": 33.3402,
+              "neg_min": -0.131,
+              "neg_max": -0.001,
+              "neg_mean": -0.005084419572783731
+            },
+            "dishwasher1": {
+              "n_valid": 87900,
+              "n_negative": 204,
+              "pct_negative": 0.2321,
+              "neg_min": -0.001,
+              "neg_max": -0.001,
+              "neg_mean": -0.0010000000000000002
+            },
+            "refrigerator1": {
+              "n_valid": 87900,
+              "n_negative": 0,
+              "pct_negative": 0.0,
+              "neg_min": null,
+              "neg_max": null,
+              "neg_mean": null
+            }
+          }
+        }
+      }
+    }
+  }
+}
