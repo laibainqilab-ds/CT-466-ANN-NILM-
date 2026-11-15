@@ -1,0 +1,412 @@
+{
+  "splits": {
+    "train": {
+      "n_rows": 392516,
+      "columns_in": [
+        "dataid",
+        "split",
+        "utc_dt",
+        "local_dt",
+        "endpoint_index",
+        "air1",
+        "air1_valid",
+        "dishwasher1",
+        "dishwasher1_valid",
+        "refrigerator1",
+        "refrigerator1_valid"
+      ],
+      "per_appliance": {
+        "air1": {
+          "ON": 73420,
+          "OFF": 319096,
+          "invalid": 0,
+          "total": 392516
+        },
+        "dishwasher1": {
+          "ON": 2747,
+          "OFF": 389720,
+          "invalid": 49,
+          "total": 392516
+        },
+        "refrigerator1": {
+          "ON": 227367,
+          "OFF": 165100,
+          "invalid": 49,
+          "total": 392516
+        }
+      },
+      "per_home": {
+        "air1": {
+          "7901": {
+            "ON": 15311,
+            "OFF": 62824,
+            "invalid": 0,
+            "total": 78135
+          },
+          "7951": {
+            "ON": 10422,
+            "OFF": 68179,
+            "invalid": 0,
+            "total": 78601
+          },
+          "8386": {
+            "ON": 8405,
+            "OFF": 70173,
+            "invalid": 0,
+            "total": 78578
+          },
+          "8565": {
+            "ON": 26499,
+            "OFF": 52102,
+            "invalid": 0,
+            "total": 78601
+          },
+          "3538": {
+            "ON": 12783,
+            "OFF": 65818,
+            "invalid": 0,
+            "total": 78601
+          }
+        },
+        "dishwasher1": {
+          "7901": {
+            "ON": 665,
+            "OFF": 77469,
+            "invalid": 1,
+            "total": 78135
+          },
+          "7951": {
+            "ON": 603,
+            "OFF": 77974,
+            "invalid": 24,
+            "total": 78601
+          },
+          "8386": {
+            "ON": 716,
+            "OFF": 77862,
+            "invalid": 0,
+            "total": 78578
+          },
+          "8565": {
+            "ON": 523,
+            "OFF": 78066,
+            "invalid": 12,
+            "total": 78601
+          },
+          "3538": {
+            "ON": 240,
+            "OFF": 78349,
+            "invalid": 12,
+            "total": 78601
+          }
+        },
+        "refrigerator1": {
+          "7901": {
+            "ON": 53798,
+            "OFF": 24336,
+            "invalid": 1,
+            "total": 78135
+          },
+          "7951": {
+            "ON": 42139,
+            "OFF": 36438,
+            "invalid": 24,
+            "total": 78601
+          },
+          "8386": {
+            "ON": 43754,
+            "OFF": 34824,
+            "invalid": 0,
+            "total": 78578
+          },
+          "8565": {
+            "ON": 45000,
+            "OFF": 33589,
+            "invalid": 12,
+            "total": 78601
+          },
+          "3538": {
+            "ON": 42676,
+            "OFF": 35913,
+            "invalid": 12,
+            "total": 78601
+          }
+        }
+      }
+    },
+    "val": {
+      "n_rows": 222905,
+      "columns_in": [
+        "dataid",
+        "split",
+        "utc_dt",
+        "local_dt",
+        "endpoint_index",
+        "air1",
+        "air1_valid",
+        "dishwasher1",
+        "dishwasher1_valid",
+        "refrigerator1",
+        "refrigerator1_valid"
+      ],
+      "per_appliance": {
+        "air1": {
+          "ON": 22446,
+          "OFF": 200459,
+          "invalid": 0,
+          "total": 222905
+        },
+        "dishwasher1": {
+          "ON": 1815,
+          "OFF": 221090,
+          "invalid": 0,
+          "total": 222905
+        },
+        "refrigerator1": {
+          "ON": 131357,
+          "OFF": 91548,
+          "invalid": 0,
+          "total": 222905
+        }
+      },
+      "per_home": {
+        "air1": {
+          "7901": {
+            "ON": 5296,
+            "OFF": 39285,
+            "invalid": 0,
+            "total": 44581
+          },
+          "7951": {
+            "ON": 3838,
+            "OFF": 40743,
+            "invalid": 0,
+            "total": 44581
+          },
+          "8386": {
+            "ON": 1677,
+            "OFF": 42904,
+            "invalid": 0,
+            "total": 44581
+          },
+          "8565": {
+            "ON": 8953,
+            "OFF": 35628,
+            "invalid": 0,
+            "total": 44581
+          },
+          "3538": {
+            "ON": 2682,
+            "OFF": 41899,
+            "invalid": 0,
+            "total": 44581
+          }
+        },
+        "dishwasher1": {
+          "7901": {
+            "ON": 677,
+            "OFF": 43904,
+            "invalid": 0,
+            "total": 44581
+          },
+          "7951": {
+            "ON": 309,
+            "OFF": 44272,
+            "invalid": 0,
+            "total": 44581
+          },
+          "8386": {
+            "ON": 461,
+            "OFF": 44120,
+            "invalid": 0,
+            "total": 44581
+          },
+          "8565": {
+            "ON": 277,
+            "OFF": 44304,
+            "invalid": 0,
+            "total": 44581
+          },
+          "3538": {
+            "ON": 91,
+            "OFF": 44490,
+            "invalid": 0,
+            "total": 44581
+          }
+        },
+        "refrigerator1": {
+          "7901": {
+            "ON": 31146,
+            "OFF": 13435,
+            "invalid": 0,
+            "total": 44581
+          },
+          "7951": {
+            "ON": 22782,
+            "OFF": 21799,
+            "invalid": 0,
+            "total": 44581
+          },
+          "8386": {
+            "ON": 25803,
+            "OFF": 18778,
+            "invalid": 0,
+            "total": 44581
+          },
+          "8565": {
+            "ON": 28150,
+            "OFF": 16431,
+            "invalid": 0,
+            "total": 44581
+          },
+          "3538": {
+            "ON": 23476,
+            "OFF": 21105,
+            "invalid": 0,
+            "total": 44581
+          }
+        }
+      }
+    },
+    "test": {
+      "n_rows": 439205,
+      "columns_in": [
+        "dataid",
+        "split",
+        "utc_dt",
+        "local_dt",
+        "endpoint_index",
+        "air1",
+        "air1_valid",
+        "dishwasher1",
+        "dishwasher1_valid",
+        "refrigerator1",
+        "refrigerator1_valid"
+      ],
+      "per_appliance": {
+        "air1": {
+          "ON": 2500,
+          "OFF": 436705,
+          "invalid": 0,
+          "total": 439205
+        },
+        "dishwasher1": {
+          "ON": 4106,
+          "OFF": 435099,
+          "invalid": 0,
+          "total": 439205
+        },
+        "refrigerator1": {
+          "ON": 223447,
+          "OFF": 215758,
+          "invalid": 0,
+          "total": 439205
+        }
+      },
+      "per_home": {
+        "air1": {
+          "7901": {
+            "ON": 514,
+            "OFF": 87327,
+            "invalid": 0,
+            "total": 87841
+          },
+          "7951": {
+            "ON": 119,
+            "OFF": 87722,
+            "invalid": 0,
+            "total": 87841
+          },
+          "8386": {
+            "ON": 0,
+            "OFF": 87841,
+            "invalid": 0,
+            "total": 87841
+          },
+          "8565": {
+            "ON": 1867,
+            "OFF": 85974,
+            "invalid": 0,
+            "total": 87841
+          },
+          "3538": {
+            "ON": 0,
+            "OFF": 87841,
+            "invalid": 0,
+            "total": 87841
+          }
+        },
+        "dishwasher1": {
+          "7901": {
+            "ON": 1468,
+            "OFF": 86373,
+            "invalid": 0,
+            "total": 87841
+          },
+          "7951": {
+            "ON": 802,
+            "OFF": 87039,
+            "invalid": 0,
+            "total": 87841
+          },
+          "8386": {
+            "ON": 1171,
+            "OFF": 86670,
+            "invalid": 0,
+            "total": 87841
+          },
+          "8565": {
+            "ON": 540,
+            "OFF": 87301,
+            "invalid": 0,
+            "total": 87841
+          },
+          "3538": {
+            "ON": 125,
+            "OFF": 87716,
+            "invalid": 0,
+            "total": 87841
+          }
+        },
+        "refrigerator1": {
+          "7901": {
+            "ON": 57451,
+            "OFF": 30390,
+            "invalid": 0,
+            "total": 87841
+          },
+          "7951": {
+            "ON": 38873,
+            "OFF": 48968,
+            "invalid": 0,
+            "total": 87841
+          },
+          "8386": {
+            "ON": 41444,
+            "OFF": 46397,
+            "invalid": 0,
+            "total": 87841
+          },
+          "8565": {
+            "ON": 48248,
+            "OFF": 39593,
+            "invalid": 0,
+            "total": 87841
+          },
+          "3538": {
+            "ON": 37431,
+            "OFF": 50410,
+            "invalid": 0,
+            "total": 87841
+          }
+        }
+      }
+    }
+  },
+  "thresholds": {
+    "air1": 1.06026,
+    "dishwasher1": 0.52378,
+    "refrigerator1": 0.06482
+  },
+  "elapsed_seconds": 7.377007961273193
+}
