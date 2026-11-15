@@ -1,0 +1,15 @@
+{
+  "method": "Pooled 1D 2-means (Lloyd's algorithm), fit on valid training-window endpoint targets pooled across all five homes",
+  "decision_rule": "label = 1 (ON) if valid non-null target >= threshold; label = 0 (OFF) if valid non-null target < threshold; label = null if target is invalid or null",
+  "thresholds": {
+    "air1": 1.06026,
+    "dishwasher1": 0.52378,
+    "refrigerator1": 0.06482
+  },
+  "units_limitation": "The physical unit of the source appliance readings (kW vs W) could not be verified from any documentation available in this project (archive contains only a directory entry, the main CSV, and metadata.csv; no unit string was found in any of them). Thresholds are expressed and applied in the dataset's original, unconverted measurement units. No unit conversion or unit assumption (kW or W) is made anywhere in this script.",
+  "source_files_for_threshold_derivation": [
+    "data/processed/window_index_train.parquet"
+  ],
+  "fit_on_validation_or_test": false,
+  "approved_by": "explicit user approval, Approach B: shared pooled 2-means thresholds"
+}
