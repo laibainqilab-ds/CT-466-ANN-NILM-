@@ -1,7 +1,7 @@
 {
   "source_file": "E:\\CT-466\\ANN_NILM\\data\\processed\\five_homes_aligned.parquet",
   "output_file": "E:\\CT-466\\ANN_NILM\\data\\processed\\five_homes_modeling.parquet",
-  "n_rows_before": 2628000,
+  "n_rows_before": 2276400,
   "columns_before": [
     "dataid",
     "split",
@@ -32,106 +32,197 @@
     ]
   },
   "transformation_B_breakdown": [
-    {"home": "7901", "split": "train", "air1_n_converted": 44632, "air1_min_value_converted": -0.005, "dishwasher1_n_converted": 42184, "dishwasher1_min_value_converted": -0.008, "refrigerator1_n_converted": 0, "refrigerator1_min_value_converted": null},
-    {"home": "7901", "split": "val", "air1_n_converted": 5473, "air1_min_value_converted": -0.005, "dishwasher1_n_converted": 4185, "dishwasher1_min_value_converted": -0.007, "refrigerator1_n_converted": 0, "refrigerator1_min_value_converted": null},
-    {"home": "7901", "split": "test", "air1_n_converted": 14085, "air1_min_value_converted": -0.004, "dishwasher1_n_converted": 1918, "dishwasher1_min_value_converted": -0.006, "refrigerator1_n_converted": 0, "refrigerator1_min_value_converted": null},
-    {"home": "7951", "split": "train", "air1_n_converted": 11176, "air1_min_value_converted": -0.005, "dishwasher1_n_converted": 14028, "dishwasher1_min_value_converted": -0.013, "refrigerator1_n_converted": 0, "refrigerator1_min_value_converted": null},
-    {"home": "7951", "split": "val", "air1_n_converted": 1030, "air1_min_value_converted": -0.005, "dishwasher1_n_converted": 1588, "dishwasher1_min_value_converted": -0.012, "refrigerator1_n_converted": 0, "refrigerator1_min_value_converted": null},
-    {"home": "7951", "split": "test", "air1_n_converted": 1979, "air1_min_value_converted": -0.005, "dishwasher1_n_converted": 8923, "dishwasher1_min_value_converted": -0.014, "refrigerator1_n_converted": 0, "refrigerator1_min_value_converted": null},
-    {"home": "8386", "split": "train", "air1_n_converted": 51727, "air1_min_value_converted": -0.013, "dishwasher1_n_converted": 577, "dishwasher1_min_value_converted": -0.002, "refrigerator1_n_converted": 271, "refrigerator1_min_value_converted": -0.001},
-    {"home": "8386", "split": "val", "air1_n_converted": 5842, "air1_min_value_converted": -0.013, "dishwasher1_n_converted": 76, "dishwasher1_min_value_converted": -0.002, "refrigerator1_n_converted": 23, "refrigerator1_min_value_converted": -0.001},
-    {"home": "8386", "split": "test", "air1_n_converted": 10430, "air1_min_value_converted": -0.011, "dishwasher1_n_converted": 189, "dishwasher1_min_value_converted": -0.001, "refrigerator1_n_converted": 50, "refrigerator1_min_value_converted": -0.001},
-    {"home": "8565", "split": "train", "air1_n_converted": 246, "air1_min_value_converted": -0.004, "dishwasher1_n_converted": 3054, "dishwasher1_min_value_converted": -0.003, "refrigerator1_n_converted": 0, "refrigerator1_min_value_converted": null},
-    {"home": "8565", "split": "val", "air1_n_converted": 1157, "air1_min_value_converted": -0.006, "dishwasher1_n_converted": 432, "dishwasher1_min_value_converted": -0.002, "refrigerator1_n_converted": 0, "refrigerator1_min_value_converted": null},
-    {"home": "8565", "split": "test", "air1_n_converted": 0, "air1_min_value_converted": null, "dishwasher1_n_converted": 614, "dishwasher1_min_value_converted": -0.003, "refrigerator1_n_converted": 1, "refrigerator1_min_value_converted": -0.002},
-    {"home": "3538", "split": "train", "air1_n_converted": 62061, "air1_min_value_converted": -0.077, "dishwasher1_n_converted": 1713, "dishwasher1_min_value_converted": -0.002, "refrigerator1_n_converted": 0, "refrigerator1_min_value_converted": null},
-    {"home": "3538", "split": "val", "air1_n_converted": 11412, "air1_min_value_converted": -0.082, "dishwasher1_n_converted": 45, "dishwasher1_min_value_converted": -0.002, "refrigerator1_n_converted": 0, "refrigerator1_min_value_converted": null},
-    {"home": "3538", "split": "test", "air1_n_converted": 29306, "air1_min_value_converted": -0.131, "dishwasher1_n_converted": 204, "dishwasher1_min_value_converted": -0.001, "refrigerator1_n_converted": 0, "refrigerator1_min_value_converted": null}
+    {
+      "home": "7901",
+      "split": "train",
+      "air1_n_converted": 44632,
+      "air1_min_value_converted": -0.005,
+      "dishwasher1_n_converted": 42184,
+      "dishwasher1_min_value_converted": -0.008,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "7901",
+      "split": "val",
+      "air1_n_converted": 5473,
+      "air1_min_value_converted": -0.005,
+      "dishwasher1_n_converted": 4185,
+      "dishwasher1_min_value_converted": -0.007,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "7901",
+      "split": "test",
+      "air1_n_converted": 0,
+      "air1_min_value_converted": null,
+      "dishwasher1_n_converted": 0,
+      "dishwasher1_min_value_converted": null,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "7951",
+      "split": "train",
+      "air1_n_converted": 11176,
+      "air1_min_value_converted": -0.005,
+      "dishwasher1_n_converted": 14028,
+      "dishwasher1_min_value_converted": -0.013,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "7951",
+      "split": "val",
+      "air1_n_converted": 1030,
+      "air1_min_value_converted": -0.005,
+      "dishwasher1_n_converted": 1588,
+      "dishwasher1_min_value_converted": -0.012,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "7951",
+      "split": "test",
+      "air1_n_converted": 0,
+      "air1_min_value_converted": null,
+      "dishwasher1_n_converted": 0,
+      "dishwasher1_min_value_converted": null,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "8386",
+      "split": "train",
+      "air1_n_converted": 0,
+      "air1_min_value_converted": null,
+      "dishwasher1_n_converted": 0,
+      "dishwasher1_min_value_converted": null,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "8386",
+      "split": "val",
+      "air1_n_converted": 0,
+      "air1_min_value_converted": null,
+      "dishwasher1_n_converted": 0,
+      "dishwasher1_min_value_converted": null,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "8386",
+      "split": "test",
+      "air1_n_converted": 67999,
+      "air1_min_value_converted": -0.013,
+      "dishwasher1_n_converted": 842,
+      "dishwasher1_min_value_converted": -0.002,
+      "refrigerator1_n_converted": 344,
+      "refrigerator1_min_value_converted": -0.001
+    },
+    {
+      "home": "8565",
+      "split": "train",
+      "air1_n_converted": 246,
+      "air1_min_value_converted": -0.004,
+      "dishwasher1_n_converted": 3054,
+      "dishwasher1_min_value_converted": -0.003,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "8565",
+      "split": "val",
+      "air1_n_converted": 1157,
+      "air1_min_value_converted": -0.006,
+      "dishwasher1_n_converted": 432,
+      "dishwasher1_min_value_converted": -0.002,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "8565",
+      "split": "test",
+      "air1_n_converted": 0,
+      "air1_min_value_converted": null,
+      "dishwasher1_n_converted": 0,
+      "dishwasher1_min_value_converted": null,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "3538",
+      "split": "train",
+      "air1_n_converted": 62061,
+      "air1_min_value_converted": -0.077,
+      "dishwasher1_n_converted": 1713,
+      "dishwasher1_min_value_converted": -0.002,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "3538",
+      "split": "val",
+      "air1_n_converted": 11412,
+      "air1_min_value_converted": -0.082,
+      "dishwasher1_n_converted": 45,
+      "dishwasher1_min_value_converted": -0.002,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    },
+    {
+      "home": "3538",
+      "split": "test",
+      "air1_n_converted": 0,
+      "air1_min_value_converted": null,
+      "dishwasher1_n_converted": 0,
+      "dishwasher1_min_value_converted": null,
+      "refrigerator1_n_converted": 0,
+      "refrigerator1_min_value_converted": null
+    }
   ],
   "transformation_B_totals": {
-    "air1": 250556,
-    "dishwasher1": 79730,
-    "refrigerator1": 345,
-    "note": "These totals are counted AFTER Transformation A already invalidated the anomaly row's dishwasher1 (-125.236) and refrigerator1 (-779.25) cells, so those two values are correctly excluded here (they were converted to NaN/invalid by Transformation A, not to zero by Transformation B). A later independent recount directly on the pre-transformation aligned file (see verification_v2_independent_corrected.negative_conversion_totals_independent) counts negative values in the INPUT file before either transformation, which includes those 2 anomaly cells -- giving dishwasher1=79731 and refrigerator1=346 there. The two totals differ by exactly 1 per affected appliance, fully explained by this ordering difference; both are internally consistent."
+    "air1": 205186,
+    "dishwasher1": 68071,
+    "refrigerator1": 344
   },
-  "verification_v1_original_flawed_check": {
-    "note": "Retained for audit trail. This check used an incorrect, overly broad criterion -- see verification_correction_notes below.",
+  "verification": {
     "row_count_matches": true,
     "schema_matches": true,
     "exactly_one_invalidated_row": false,
     "invalidated_row_matches_expected": false,
-    "remaining_negative_counts": {"air1": 0, "dishwasher1": 0, "refrigerator1": 0},
+    "remaining_negative_counts": {
+      "air1": 0,
+      "dishwasher1": 0,
+      "refrigerator1": 0
+    },
     "zero_negatives_remaining": true,
     "aggregate_unchanged": true,
     "aggregate_neg_before": 0,
     "aggregate_neg_after": 0,
     "preserved_files_unchanged": true,
     "preserved_before": {
-      "five_homes.parquet": {"size": 22409743, "mtime": 1794687547.2461402},
-      "five_homes_aligned.parquet": {"size": 40953737, "mtime": 1794688198.047583}
+      "five_homes.parquet": {
+        "size": 22409743,
+        "mtime": 1794687547.2461402
+      },
+      "five_homes_aligned.parquet": {
+        "size": 35869296,
+        "mtime": 1794855610.576204
+      }
     },
     "preserved_after": {
-      "five_homes.parquet": {"size": 22409743, "mtime": 1794687547.2461402},
-      "five_homes_aligned.parquet": {"size": 40953737, "mtime": 1794688198.047583}
+      "five_homes.parquet": {
+        "size": 22409743,
+        "mtime": 1794687547.2461402
+      },
+      "five_homes_aligned.parquet": {
+        "size": 35869296,
+        "mtime": 1794855610.576204
+      }
     }
   },
-  "verification_correction_notes": {
-    "problem_with_original_check": "The original check counted ALL rows in the OUTPUT file where both dishwasher1 and refrigerator1 are simultaneously null and invalid, expecting exactly 1. This is the wrong test: the dataset already contained 2,400 rows with this exact pattern BEFORE Stage 5 ran, because Stage 4's reindexing legitimately marked both dishwasher1 and refrigerator1 missing at the same timestamps in several homes (both submeters happened to be missing together). An absolute whole-file count of 2,401 cannot distinguish '2,400 pre-existing + 1 new' from any other combination -- it just looked like a failure against a naive expectation of exactly 1.",
-    "pre_existing_both_invalid_total": 2400,
-    "pre_existing_both_invalid_by_home_split": {
-      "3538_train": 60,
-      "7901_train": 2160,
-      "7951_train": 120,
-      "8565_train": 60
-    },
-    "cross_check_against_stage4_report": "These counts match Stage 4's own appliance_invalid_counts exactly for dishwasher1 and refrigerator1 in these four home/split combinations (both appliances had identical invalid counts in each case, confirming both submeters shared the same missing-minute pattern). 8386 is absent from this list because its dishwasher1/refrigerator1 invalid counts were 0 in Stage 4 (its missingness was in air1 instead).",
-    "corrected_methodology": "Instead of an absolute count, merge the pre-transformation (aligned) and post-transformation (modeling) files on (dataid, split, utc_dt), then count rows where dishwasher1_valid and refrigerator1_valid BOTH flip from True (in aligned) to False (in modeling). This isolates exactly what Stage 5 changed, independent of any pre-existing missingness pattern.",
-    "corrected_result": "Exactly 1 row flips from valid to invalid for both fields: dataid=7901, split=train, utc_dt=2018-09-22 01:54:00 -- precisely the intended anomaly row and no other. post_both_invalid_total (2401) minus pre_existing_both_invalid_total (2400) = 1, confirming no other row was affected."
-  },
-  "verification_v2_independent_corrected": {
-    "method": "Full merge of aligned (input) and modeling (output) files on (dataid, split, utc_dt); row-count and column-list checks; per-column identity checks on dataid/split/utc_dt/local_dt using NaT-safe pandas .equals(); explicit valid-to-invalid and invalid-to-valid flip counts for all three appliances; full value-level aggregate comparison (not just negative-count comparison); independent recount of negative-to-zero conversions directly from the files; file stat (size/mtime) checks on the two preserved upstream files.",
-    "row_count_match": true,
-    "columns_match": true,
-    "dataid_identical": true,
-    "split_identical": true,
-    "utc_dt_identical": true,
-    "local_dt_identical": true,
-    "merge_row_count_match": true,
-    "anomaly_row_found": true,
-    "anomaly_dishwasher1_null": true,
-    "anomaly_refrigerator1_null": true,
-    "anomaly_dishwasher1_valid_false": true,
-    "anomaly_refrigerator1_valid_false": true,
-    "n_newly_invalid_pair": 1,
-    "newly_invalid_rows": [
-      {"dataid": "7901", "split": "train", "utc_dt": "2018-09-22 01:54:00"}
-    ],
-    "pre_existing_both_invalid_total": 2400,
-    "post_both_invalid_total": 2401,
-    "diff_equals_one": true,
-    "air1_valid_to_invalid_count": 0,
-    "air1_invalid_to_valid_count": 0,
-    "dishwasher1_valid_to_invalid_count": 1,
-    "dishwasher1_valid_to_invalid_rows": [{"dataid": "7901", "split": "train", "utc_dt": "2018-09-22 01:54:00"}],
-    "dishwasher1_invalid_to_valid_count": 0,
-    "refrigerator1_valid_to_invalid_count": 1,
-    "refrigerator1_valid_to_invalid_rows": [{"dataid": "7901", "split": "train", "utc_dt": "2018-09-22 01:54:00"}],
-    "refrigerator1_invalid_to_valid_count": 0,
-    "air1_remaining_negative": 0,
-    "dishwasher1_remaining_negative": 0,
-    "refrigerator1_remaining_negative": 0,
-    "aggregate_n_value_differences": 0,
-    "aggregate_was_interpolated_identical": true,
-    "per_home_split_counts_match": true,
-    "negative_conversion_totals_independent": {
-      "air1": 250556,
-      "dishwasher1": 79731,
-      "refrigerator1": 346,
-      "note": "Counted directly from the pre-transformation aligned file; includes the 2 anomaly cells (differs from transformation_B_totals by exactly 1 per affected appliance -- see note there)."
-    },
-    "raw_file_stat": {"size": 22409743, "mtime": 1794687547.2461402},
-    "aligned_file_stat": {"size": 40953737, "mtime": 1794688198.047583},
-    "all_checks_passed": true
-  },
-  "elapsed_seconds": 3.3976693153381348
+  "elapsed_seconds": 8.265697479248047
 }

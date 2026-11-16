@@ -28,12 +28,12 @@
         }
       },
       "test": {
-        "n_rows": 87900,
+        "n_rows": 0,
         "chrono_strictly_1min_spacing": true,
         "chrono_monotonic_unique": true,
-        "n_candidates": 87841,
+        "n_candidates": 0,
         "n_rejected": 0,
-        "n_accepted": 87841,
+        "n_accepted": 0,
         "n_appliance_invalid_at_endpoint": {
           "air1": 0,
           "dishwasher1": 0,
@@ -69,12 +69,12 @@
         }
       },
       "test": {
-        "n_rows": 87900,
+        "n_rows": 0,
         "chrono_strictly_1min_spacing": true,
         "chrono_monotonic_unique": true,
-        "n_candidates": 87841,
+        "n_candidates": 0,
         "n_rejected": 0,
-        "n_accepted": 87841,
+        "n_accepted": 0,
         "n_appliance_invalid_at_endpoint": {
           "air1": 0,
           "dishwasher1": 0,
@@ -84,12 +84,12 @@
     },
     "8386": {
       "train": {
-        "n_rows": 393060,
+        "n_rows": 0,
         "chrono_strictly_1min_spacing": true,
         "chrono_monotonic_unique": true,
-        "n_candidates": 78601,
-        "n_rejected": 23,
-        "n_accepted": 78578,
+        "n_candidates": 0,
+        "n_rejected": 0,
+        "n_accepted": 0,
         "n_appliance_invalid_at_endpoint": {
           "air1": 0,
           "dishwasher1": 0,
@@ -97,12 +97,12 @@
         }
       },
       "val": {
-        "n_rows": 44640,
+        "n_rows": 0,
         "chrono_strictly_1min_spacing": true,
         "chrono_monotonic_unique": true,
-        "n_candidates": 44581,
+        "n_candidates": 0,
         "n_rejected": 0,
-        "n_accepted": 44581,
+        "n_accepted": 0,
         "n_appliance_invalid_at_endpoint": {
           "air1": 0,
           "dishwasher1": 0,
@@ -110,12 +110,12 @@
         }
       },
       "test": {
-        "n_rows": 87900,
+        "n_rows": 525600,
         "chrono_strictly_1min_spacing": true,
         "chrono_monotonic_unique": true,
-        "n_candidates": 87841,
-        "n_rejected": 0,
-        "n_accepted": 87841,
+        "n_candidates": 525541,
+        "n_rejected": 119,
+        "n_accepted": 525422,
         "n_appliance_invalid_at_endpoint": {
           "air1": 0,
           "dishwasher1": 0,
@@ -151,12 +151,12 @@
         }
       },
       "test": {
-        "n_rows": 87900,
+        "n_rows": 0,
         "chrono_strictly_1min_spacing": true,
         "chrono_monotonic_unique": true,
-        "n_candidates": 87841,
+        "n_candidates": 0,
         "n_rejected": 0,
-        "n_accepted": 87841,
+        "n_accepted": 0,
         "n_appliance_invalid_at_endpoint": {
           "air1": 0,
           "dishwasher1": 0,
@@ -192,12 +192,12 @@
         }
       },
       "test": {
-        "n_rows": 87900,
+        "n_rows": 0,
         "chrono_strictly_1min_spacing": true,
         "chrono_monotonic_unique": true,
-        "n_candidates": 87841,
+        "n_candidates": 0,
         "n_rejected": 0,
-        "n_accepted": 87841,
+        "n_accepted": 0,
         "n_appliance_invalid_at_endpoint": {
           "air1": 0,
           "dishwasher1": 0,
@@ -239,12 +239,12 @@
         },
         {
           "dataid": "8386",
-          "n_rows": 393060,
+          "n_rows": 0,
           "chrono_strictly_1min_spacing": true,
           "chrono_monotonic_unique": true,
-          "n_candidates": 78601,
-          "n_rejected": 23,
-          "n_accepted": 78578,
+          "n_candidates": 0,
+          "n_rejected": 0,
+          "n_accepted": 0,
           "n_appliance_invalid_at_endpoint": {
             "air1": 0,
             "dishwasher1": 0,
@@ -280,7 +280,7 @@
           }
         }
       ],
-      "accepted_total": 392516
+      "accepted_total": 313938
     },
     "val": {
       "rows": [
@@ -314,12 +314,12 @@
         },
         {
           "dataid": "8386",
-          "n_rows": 44640,
+          "n_rows": 0,
           "chrono_strictly_1min_spacing": true,
           "chrono_monotonic_unique": true,
-          "n_candidates": 44581,
+          "n_candidates": 0,
           "n_rejected": 0,
-          "n_accepted": 44581,
+          "n_accepted": 0,
           "n_appliance_invalid_at_endpoint": {
             "air1": 0,
             "dishwasher1": 0,
@@ -355,18 +355,18 @@
           }
         }
       ],
-      "accepted_total": 222905
+      "accepted_total": 178324
     },
     "test": {
       "rows": [
         {
           "dataid": "7901",
-          "n_rows": 87900,
+          "n_rows": 0,
           "chrono_strictly_1min_spacing": true,
           "chrono_monotonic_unique": true,
-          "n_candidates": 87841,
+          "n_candidates": 0,
           "n_rejected": 0,
-          "n_accepted": 87841,
+          "n_accepted": 0,
           "n_appliance_invalid_at_endpoint": {
             "air1": 0,
             "dishwasher1": 0,
@@ -375,12 +375,12 @@
         },
         {
           "dataid": "7951",
-          "n_rows": 87900,
+          "n_rows": 0,
           "chrono_strictly_1min_spacing": true,
           "chrono_monotonic_unique": true,
-          "n_candidates": 87841,
+          "n_candidates": 0,
           "n_rejected": 0,
-          "n_accepted": 87841,
+          "n_accepted": 0,
           "n_appliance_invalid_at_endpoint": {
             "air1": 0,
             "dishwasher1": 0,
@@ -389,12 +389,12 @@
         },
         {
           "dataid": "8386",
-          "n_rows": 87900,
+          "n_rows": 525600,
           "chrono_strictly_1min_spacing": true,
           "chrono_monotonic_unique": true,
-          "n_candidates": 87841,
-          "n_rejected": 0,
-          "n_accepted": 87841,
+          "n_candidates": 525541,
+          "n_rejected": 119,
+          "n_accepted": 525422,
           "n_appliance_invalid_at_endpoint": {
             "air1": 0,
             "dishwasher1": 0,
@@ -403,12 +403,12 @@
         },
         {
           "dataid": "8565",
-          "n_rows": 87900,
+          "n_rows": 0,
           "chrono_strictly_1min_spacing": true,
           "chrono_monotonic_unique": true,
-          "n_candidates": 87841,
+          "n_candidates": 0,
           "n_rejected": 0,
-          "n_accepted": 87841,
+          "n_accepted": 0,
           "n_appliance_invalid_at_endpoint": {
             "air1": 0,
             "dishwasher1": 0,
@@ -417,12 +417,12 @@
         },
         {
           "dataid": "3538",
-          "n_rows": 87900,
+          "n_rows": 0,
           "chrono_strictly_1min_spacing": true,
           "chrono_monotonic_unique": true,
-          "n_candidates": 87841,
+          "n_candidates": 0,
           "n_rejected": 0,
-          "n_accepted": 87841,
+          "n_accepted": 0,
           "n_appliance_invalid_at_endpoint": {
             "air1": 0,
             "dishwasher1": 0,
@@ -430,14 +430,14 @@
           }
         }
       ],
-      "accepted_total": 439205
+      "accepted_total": 525422
     }
   },
   "final_totals": {
-    "train": 392516,
-    "val": 222905,
-    "test": 439205,
-    "grand_total": 1054626
+    "train": 313938,
+    "val": 178324,
+    "test": 525422,
+    "grand_total": 1017684
   },
   "expected_totals": {
     "train": 392516,
@@ -445,6 +445,23 @@
     "test": 439205,
     "grand_total": 1054626
   },
-  "discrepancies": {},
-  "elapsed_seconds": 2.6262428760528564
+  "discrepancies": {
+    "train": {
+      "expected": 392516,
+      "actual": 313938
+    },
+    "val": {
+      "expected": 222905,
+      "actual": 178324
+    },
+    "test": {
+      "expected": 439205,
+      "actual": 525422
+    },
+    "grand_total": {
+      "expected": 1054626,
+      "actual": 1017684
+    }
+  },
+  "elapsed_seconds": 6.9647603034973145
 }

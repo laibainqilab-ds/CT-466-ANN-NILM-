@@ -14,7 +14,7 @@ data/interim/
 data/processed/
 
 # Model files
-models/
+/models/
 checkpoints/
 *.pt
 *.pth
@@ -36,3 +36,6 @@ logs/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Archived pre-revision snapshots
+archive/
