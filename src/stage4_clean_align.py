@@ -8,7 +8,10 @@ five approved homes, independently:
     is established ONLY from these parsed values, never archive row order
   - constructs the aggregate input (grid, or grid+solar for 3538,
     null-propagating)
-  - classifies rows into train/val/test by LOCAL calendar date
+  - classifies rows into train/val/test by LOCAL calendar date, using
+    per-home bounds: the four development homes keep the original
+    train (Jan-Sep)/val (Oct) ranges and get no test segment; the held-out
+    household 8386 gets only a full-year test segment and no train/val
   - reindexes each home x split segment onto a complete 1-minute grid
     (fixed calendar boundaries converted to UTC via zoneinfo, DST-aware)
   - interpolates the aggregate column only, only for gaps <=5 minutes with
@@ -35,10 +38,18 @@ APPLIANCES = ["air1", "dishwasher1", "refrigerator1"]
 TZ = ZoneInfo("America/Chicago")
 MAX_INTERP_GAP = 5
 
-SPLIT_BOUNDS_LOCAL = {
+# Revised split: 8386 is the held-out, unseen test household (full year,
+# test only); the other four are development households and keep the
+# original train/val date ranges (no test segment for them at all).
+TEST_HOME = "8386"
+DEV_HOMES = [h for h in HOMES if h != TEST_HOME]
+
+DEV_SPLIT_BOUNDS_LOCAL = {
     "train": (datetime(2018, 1, 1, 0, 0, 0), datetime(2018, 9, 30, 23, 59, 0)),
     "val":   (datetime(2018, 10, 1, 0, 0, 0), datetime(2018, 10, 31, 23, 59, 0)),
-    "test":  (datetime(2018, 11, 1, 0, 0, 0), datetime(2018, 12, 31, 23, 59, 0)),
+}
+TEST_HOME_SPLIT_BOUNDS_LOCAL = {
+    "test": (datetime(2018, 1, 1, 0, 0, 0), datetime(2018, 12, 31, 23, 59, 0)),
 }
 
 print(f"PID={os.getpid()}", flush=True)
@@ -51,14 +62,15 @@ report = {"homes": {}}
 all_out_frames = []
 
 
-def classify(local_ts):
-    for name, (start, end) in SPLIT_BOUNDS_LOCAL.items():
+def classify(local_ts, bounds):
+    for name, (start, end) in bounds.items():
         if start <= local_ts <= end:
             return name
     return "out_of_range"
 
 
 for home in HOMES:
+    bounds = TEST_HOME_SPLIT_BOUNDS_LOCAL if home == TEST_HOME else DEV_SPLIT_BOUNDS_LOCAL
     home_t0 = time.time()
     df = pd.read_parquet(RAW_PATH, engine="pyarrow", filters=[("dataid", "==", home)])
     n_raw = len(df)
@@ -93,7 +105,7 @@ for home in HOMES:
     else:
         df["aggregate"] = df["grid"]
 
-    df["split"] = df["local_dt"].apply(classify)
+    df["split"] = df["local_dt"].apply(lambda t: classify(t, bounds))
     out_of_range_count = int((df["split"] == "out_of_range").sum())
 
     home_report = {
@@ -107,7 +119,7 @@ for home in HOMES:
 
     processed_segments = []
 
-    for split_name, (start_local, end_local) in SPLIT_BOUNDS_LOCAL.items():
+    for split_name, (start_local, end_local) in bounds.items():
         seg = df[df["split"] == split_name].copy()
 
         start_utc = start_local.replace(tzinfo=TZ).astimezone(timezone.utc).replace(tzinfo=None)

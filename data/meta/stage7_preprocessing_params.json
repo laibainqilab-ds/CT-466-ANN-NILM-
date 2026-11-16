@@ -1,0 +1,41 @@
+{
+  "aggregate_scaler": {
+    "description": "Mean/std over unique valid TRAIN-split per-minute aggregate readings from five_homes_modeling.parquet (NOT reconstructed window contents -- avoids non-uniform duplication bias near segment edges/gaps). Pooled across the four development households only -- household 8386 (held-out unseen test household) is absent from the train split by construction and contributes nothing to this fit.",
+    "mean": 1.269473490783557,
+    "std": 1.4798533628574844,
+    "n": 1570020,
+    "units_note": "Original, unconverted dataset measurement units. Physical unit (kW vs W) not independently verified."
+  },
+  "target_scalers": {
+    "air1": {
+      "mean": 0.4427242353585739,
+      "std": 0.882397181456915,
+      "n": 313938
+    },
+    "dishwasher1": {
+      "mean": 0.008343325188203472,
+      "std": 0.08524692032484547,
+      "n": 313889
+    },
+    "refrigerator1": {
+      "mean": 0.0747864722879744,
+      "std": 0.07649585567025147,
+      "n": 313889
+    }
+  },
+  "target_scaler_description": "Per-appliance mean/std over valid TRAIN-split window-endpoint targets (window_labels_train.parquet) -- matches the population actually used by the regression loss. Same four-development-household, train-only population as the aggregate scaler above.",
+  "fit_on_validation_or_test": false,
+  "source_split": "train",
+  "source_homes": [
+    "7901",
+    "7951",
+    "8565",
+    "3538"
+  ],
+  "held_out_home": "8386",
+  "source_files": [
+    "data/processed/five_homes_modeling.parquet",
+    "data/processed/window_labels_train.parquet"
+  ],
+  "generated_by": "src/stage7_preprocess.py"
+}

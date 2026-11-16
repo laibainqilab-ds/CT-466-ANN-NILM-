@@ -1,0 +1,82 @@
+{
+  "experiments": [
+    {
+      "model_name": "MLP",
+      "class_weight_mode": "unweighted",
+      "status": "completed",
+      "best_epoch": 7,
+      "best_val_cls_loss": 0.18415956455903595,
+      "best_val_reg_loss": 0.5368603633501867,
+      "best_val_total_loss": 0.7210199279092226,
+      "checkpoint_path": "E:\\CT-466\\ANN_NILM\\models\\MLP_unweighted_best.pt",
+      "epochs_run": 10,
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "model_name": "MLP",
+      "class_weight_mode": "cap20",
+      "status": "completed",
+      "best_epoch": 7,
+      "best_val_cls_loss": 0.20646876452072613,
+      "best_val_reg_loss": 0.5283620760820223,
+      "best_val_total_loss": 0.7348308406027485,
+      "checkpoint_path": "E:\\CT-466\\ANN_NILM\\models\\MLP_cap20_best.pt",
+      "epochs_run": 10,
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "model_name": "MLP",
+      "class_weight_mode": "cap50",
+      "status": "completed",
+      "best_epoch": 7,
+      "best_val_cls_loss": 0.23664183040568457,
+      "best_val_reg_loss": 0.5325349262383657,
+      "best_val_total_loss": 0.7691767566440503,
+      "checkpoint_path": "E:\\CT-466\\ANN_NILM\\models\\MLP_cap50_best.pt",
+      "epochs_run": 10,
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "model_name": "CNN1D",
+      "class_weight_mode": "unweighted",
+      "status": "completed",
+      "best_epoch": 9,
+      "best_val_cls_loss": 0.2007167917553866,
+      "best_val_reg_loss": 0.5439785455535595,
+      "best_val_total_loss": 0.7446953373089461,
+      "checkpoint_path": "E:\\CT-466\\ANN_NILM\\models\\CNN1D_unweighted_best.pt",
+      "epochs_run": 10,
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "model_name": "CNN1D",
+      "class_weight_mode": "cap20",
+      "status": "completed",
+      "best_epoch": 9,
+      "best_val_cls_loss": 0.2228168148126575,
+      "best_val_reg_loss": 0.5559431620901037,
+      "best_val_total_loss": 0.7787599769027612,
+      "checkpoint_path": "E:\\CT-466\\ANN_NILM\\models\\CNN1D_cap20_best.pt",
+      "epochs_run": 10,
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "model_name": "CNN1D",
+      "class_weight_mode": "cap50",
+      "status": "completed",
+      "best_epoch": 9,
+      "best_val_cls_loss": 0.24050234137883617,
+      "best_val_reg_loss": 0.573254423750575,
+      "best_val_total_loss": 0.8137567651294112,
+      "checkpoint_path": "E:\\CT-466\\ANN_NILM\\models\\CNN1D_cap50_best.pt",
+      "epochs_run": 10,
+      "error_type": null,
+      "error_message": null
+    }
+  ]
+}
